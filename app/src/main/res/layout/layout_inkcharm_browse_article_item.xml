@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LL_layout_inkcharm_borwse_article_item_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_inkcharm_borwse_article_item_linearlayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.alonefluteincompletemoon.inkcharm.tools.round_icon.CircularImage
+                    android:id="@+id/IB_layout_inkcharm_browse_article_ImageIcon"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="8dp" />
+
+                <TextView
+                    android:id="@+id/TV_layout_inkcharm_browse_article_UserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="孤箫残月"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TV_layout_inkcharm_browse_article_ArticleName"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:text="一叶落可知秋至"
+                    android:textColor="#000000"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/TV_layout_inkcharm_browse_article_ArticleContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:ellipsize="end"
+                    android:lines="3"
+                    android:maxLines="3"
+                    android:text="        意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。意思是看到树叶落，便知秋天到来。借此比喻从细微的变化中可以推测事物的发展趋向。"
+                    android:textColor="#000000" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
