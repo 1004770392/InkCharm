@@ -11,7 +11,7 @@
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
-        <com.alonefluteincompletemoon.inkcharm.tools.round_icon.CircularImage
+        <com.qpy.inkcharm.tools.round_icon.CircularImage
             android:id="@+id/layout_inkcharm_my_article_myfriends_item_FriendsHead"
             android:layout_width="40dp"
             android:layout_height="40dp" />

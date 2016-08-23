@@ -29,7 +29,7 @@
                     android:layout_weight="1"
                     android:gravity="left|center_vertical">
 
-                    <com.alonefluteincompletemoon.inkcharm.tools.round_icon.CircularImage
+                    <com.qpy.inkcharm.tools.round_icon.CircularImage
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginLeft="8dp"
@@ -90,7 +90,7 @@
                     android:layout_weight="1"
                     android:gravity="left|center_vertical">
 
-                    <com.alonefluteincompletemoon.inkcharm.tools.round_icon.CircularImage
+                    <com.qpy.inkcharm.tools.round_icon.CircularImage
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_marginLeft="8dp"

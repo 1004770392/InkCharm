@@ -28,7 +28,7 @@
             android:layout_height="48dp"
             android:gravity="center">
 
-            <com.alonefluteincompletemoon.inkcharm.tools.round_icon.CircularImage
+            <com.qpy.inkcharm.tools.round_icon.CircularImage
                 android:id="@+id/CI_activity_inkcharm_browse_article_UserHead"
                 android:layout_width="40dp"
                 android:layout_height="40dp" />
