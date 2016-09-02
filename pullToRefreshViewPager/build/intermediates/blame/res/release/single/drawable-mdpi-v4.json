@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\InkCharm\\InkCharm\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "G:\\InkCharm\\InkCharm\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\InkCharm\\library\\unspecified\\res\\drawable-mdpi-v4\\indicator_arrow.png"
+    },
+    {
+        "merged": "G:\\InkCharm\\InkCharm\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "G:\\InkCharm\\InkCharm\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\InkCharm\\library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "G:\\InkCharm\\InkCharm\\pullToRefreshViewPager\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "G:\\InkCharm\\InkCharm\\pullToRefreshViewPager\\build\\intermediates\\exploded-aar\\InkCharm\\library\\unspecified\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
+    }
+]
