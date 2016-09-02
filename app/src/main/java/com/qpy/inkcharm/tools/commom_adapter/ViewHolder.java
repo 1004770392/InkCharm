@@ -16,6 +16,7 @@ public class ViewHolder
     private int mPosition;
     private View mConvertView;
 
+
     private ViewHolder(Context context, ViewGroup parent, int layoutId,
                        int position)
     {

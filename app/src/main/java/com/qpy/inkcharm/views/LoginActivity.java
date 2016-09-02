@@ -20,7 +20,7 @@ public class LoginActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_inkcharm_login);
 
         ET_activity_login_username = (EditText)findViewById(R.id.ET_activity_login_username);
         ET_activity_login_password = (EditText)findViewById(R.id.ET_activity_login_password);

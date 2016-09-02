@@ -19,7 +19,7 @@ public class RegisterActivity extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.qpy.inkcharm.R.layout.activity_register);
+        setContentView(com.qpy.inkcharm.R.layout.activity_inkcharm_register);
 
         BT_activity_register_back = (Button) findViewById(com.qpy.inkcharm.R.id.BT_activity_register_back);
         BT_activity_register_next = (Button) findViewById(com.qpy.inkcharm.R.id.BT_activity_register_next);

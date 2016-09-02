@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/InkCharm.iml" filepath="$PROJECT_DIR$/InkCharm.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" filepath="$PROJECT_DIR$/pullToRefreshListFragment/pullToRefreshListFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" filepath="$PROJECT_DIR$/pullToRefreshViewPager/pullToRefreshViewPager.iml" />
     </modules>
   </component>
 </project>

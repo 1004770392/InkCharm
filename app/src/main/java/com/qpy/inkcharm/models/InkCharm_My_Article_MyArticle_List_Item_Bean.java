@@ -1,5 +1,7 @@
 package com.qpy.inkcharm.models;
 
+import android.widget.LinearLayout;
+
 /**
  * Created by 鹏阳 on 2015/8/25.
  */
@@ -10,6 +12,8 @@ public class InkCharm_My_Article_MyArticle_List_Item_Bean {
     private String CollectNum;
 
     public InkCharm_My_Article_MyArticle_List_Item_Bean() {
+
+
 
     }
 
