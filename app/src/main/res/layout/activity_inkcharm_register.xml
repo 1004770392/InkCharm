@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#80deea"
     android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/Activity_Login_LinearLayout_height"
@@ -46,20 +49,55 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Activity_Login_LinearLayout_height"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+        android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+        android:background="@drawable/activity_login_round_corner_linearlayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/ET_activity_register_email"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:digits="@string/Activity_Login_inputtype"
+            android:numeric="integer"
+            android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+            android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+            android:background="@drawable/activity_login_round_corner_edittext"
+            android:hint="邮箱"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Activity_Login_LinearLayout_height"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+        android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+        android:background="@drawable/activity_login_round_corner_linearlayout"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/ET_activity_register_NikeName"
+            android:maxLines="1"
+            android:maxLength="20"
+            android:digits="@string/Activity_Login_inputtype"
+            android:numeric="integer"
+            android:layout_marginLeft="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+            android:layout_marginRight="@dimen/Activity_Login_LinearLayout_margin_Left_Right"
+            android:background="@drawable/activity_login_round_corner_edittext"
+            android:hint="用户名"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
     <Button
         android:id="@+id/BT_activity_register_next"
         android:layout_width="match_parent"
-        android:text="下一步"
+        android:text="注册"
         android:layout_marginTop="30dp"
-        android:layout_marginLeft="@dimen/Activity_Login_Button_padding_Left_Rightm"
-        style="@style/style_inkcharm_button_Big"
-        android:layout_marginRight="@dimen/Activity_Login_Button_padding_Left_Rightm"
-        android:layout_height="40dp" />
-    <Button
-        android:id="@+id/BT_activity_register_back"
-        android:layout_width="match_parent"
-        android:text="返回"
-        android:layout_marginTop="10dp"
         android:layout_marginLeft="@dimen/Activity_Login_Button_padding_Left_Rightm"
         style="@style/style_inkcharm_button_Big"
         android:layout_marginRight="@dimen/Activity_Login_Button_padding_Left_Rightm"

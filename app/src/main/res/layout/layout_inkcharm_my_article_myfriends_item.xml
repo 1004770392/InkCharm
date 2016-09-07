@@ -6,6 +6,13 @@
     android:orientation="vertical">
 
     <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/LL_layout_inkcharm_my_article_myfriends_item"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:gravity="center_vertical"
@@ -40,9 +47,11 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_marginTop="4dp"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#000000">
+        android:background="#cfd8dc">
 
+    </LinearLayout>
     </LinearLayout>
 </LinearLayout>

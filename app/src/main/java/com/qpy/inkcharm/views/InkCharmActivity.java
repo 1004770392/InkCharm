@@ -246,6 +246,14 @@ public class InkCharmActivity extends Activity {
             @Override
             public void convert(ViewHolder helper, final InkCharm_Browse_Article_Item_Bean item) {
                 helper.setImageResource(R.id.IB_layout_inkcharm_browse_article_ImageIcon, item.getImageRId());
+                helper.getView(R.id.IB_layout_inkcharm_browse_article_ImageIcon).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent();
+                        intent.setClass(InkCharmActivity.this,InkCharm_Add_Article.class);
+                        startActivity(intent);
+                    }
+                });
                 helper.setText(R.id.TV_layout_inkcharm_browse_article_UserName, item.getUserName());
                 helper.setText(R.id.TV_layout_inkcharm_browse_article_ArticleName, item.getArticleName());
                 helper.setText(R.id.TV_layout_inkcharm_browse_article_ArticleContent, item.getArticleContent());
@@ -311,10 +319,23 @@ public class InkCharmActivity extends Activity {
         });
         LV_activity_inkcharm_my_article_myfriends_list.setAdapter(new CommonAdapter<InkCharm_My_Article_MyFriends_List_Item_Bean>(getApplicationContext(), IMAMFLI_Bean_Data, R.layout.layout_inkcharm_my_article_myfriends_item) {
             @Override
-            public void convert(ViewHolder helper, InkCharm_My_Article_MyFriends_List_Item_Bean item) {
+            public void convert(ViewHolder helper,final InkCharm_My_Article_MyFriends_List_Item_Bean item) {
                 helper.setText(R.id.layout_inkcharm_my_article_myfriends_item_FriendsName, item.getFriendsName());
                 helper.setText(R.id.layout_inkcharm_my_article_myfriends_item_FriendsWord, item.getFreiendsWord());
                 helper.setImageResource(R.id.layout_inkcharm_my_article_myfriends_item_FriendsHead, item.getFriendsHeadRId());
+                helper.getView(R.id.LL_layout_inkcharm_my_article_myfriends_item).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent();
+                        intent.setClass(InkCharmActivity.this, InkCharm_Personal_Page_Activity.class);
+                        Bundle bundle = new Bundle();
+                        bundle.putString("FriendsName", item.getFriendsName());
+                        bundle.putString("FreiendsWord", item.getFreiendsWord());
+                        bundle.putInt("FriendsHeadRId", item.getFriendsHeadRId());
+                        intent.putExtras(bundle);
+                        startActivity(intent);
+                    }
+                });
             }
         });
         PT_activity_inkcharm_my_article_title.setBackgroundColor(Color.WHITE);

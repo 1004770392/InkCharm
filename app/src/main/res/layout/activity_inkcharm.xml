@@ -29,11 +29,6 @@
                     android:layout_weight="1"
                     android:gravity="left|center_vertical">
 
-                    <com.qpy.inkcharm.tools.round_icon.CircularImage
-                        android:layout_width="40dp"
-                        android:layout_height="40dp"
-                        android:layout_marginLeft="8dp"
-                        android:background="@drawable/inkcharm_test_image" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -136,7 +131,9 @@
                         >
                     </android.support.v4.view.PagerTabStrip>
 
+
                 </android.support.v4.view.ViewPager>
+
             </LinearLayout>
         </LinearLayout>
 
