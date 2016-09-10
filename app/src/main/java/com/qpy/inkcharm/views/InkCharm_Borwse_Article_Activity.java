@@ -39,7 +39,7 @@ public class InkCharm_Borwse_Article_Activity extends Activity {
 
         CI_activity_inkcharm_browse_article_UserHead = (CircularImage) findViewById(R.id.CI_activity_inkcharm_browse_article_UserHead);
 
-        DataTransmission();
+       DataTransmission();
 
         BT_activity_inkcharm_browse_article_Back.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -55,11 +55,12 @@ public class InkCharm_Borwse_Article_CommentArticle_Activity extends Activity {
                 this.notifyDataSetChanged();
             }
         });
-        LV_activity_inkcharm_borwse_commentArticle.setTranscriptMode(ListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
+
         BT_activity_inkcharm_borwse_CommentArticle_GetComment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Add_Init_IMAMFLI_Bean_Data();
+                LV_activity_inkcharm_borwse_commentArticle.setTranscriptMode(ListView.TRANSCRIPT_MODE_ALWAYS_SCROLL);
             }
         });
     }

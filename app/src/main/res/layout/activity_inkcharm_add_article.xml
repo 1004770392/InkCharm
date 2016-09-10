@@ -18,6 +18,7 @@
 
             <Button
                 android:id="@+id/BT_activity_inkcharm_browse_article_Back"
+                android:background="@drawable/ic_fa_angle_left"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="8dp" />
@@ -29,6 +30,7 @@
             android:gravity="center">
 
             <com.qpy.inkcharm.tools.round_icon.CircularImage
+                android:background="@drawable/ic_launcher"
                 android:id="@+id/CI_activity_inkcharm_browse_article_UserHead"
                 android:layout_width="40dp"
                 android:layout_height="40dp" />
@@ -42,21 +44,6 @@
         </LinearLayout>
     </FrameLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="4dp"
-        android:gravity="center_vertical">
-
-        <EditText
-            android:id="@+id/TV_activity_inkcharm_browse_article_ArticleName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:textColor="#000000"
-            android:textSize="18sp" />
-    </LinearLayout>
 
     <ScrollView
         android:scrollbars="none"
@@ -68,13 +55,7 @@
         android:layout_weight="1"
         android:background="#FFFFFF">
 
-        <TextView
-            android:lineSpacingExtra="3dp"
-            android:id="@+id/TV_activity_inkcharm_browse_article_ArticleContent"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textColor="#636363"
-            android:textSize="16sp" />
+
     </ScrollView>
 
     <LinearLayout
@@ -94,17 +75,6 @@
             android:layout_weight="1"
             android:background="@drawable/layout_inkcharm_borwse_article_item_button"
             android:text="评论"
-            android:textSize="12dp" />
-
-        <Button
-            android:id="@+id/BT_activity_inkcharm_browse_article_CollectArticle"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
-            android:layout_weight="1"
-            android:background="@drawable/layout_inkcharm_borwse_article_item_button"
-            android:text="收藏"
             android:textSize="12dp" />
 
         <Button

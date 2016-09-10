@@ -4,6 +4,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:background="@color/InkCharm_Borwse_Article_Button_BLUE"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageButton
+            android:background="@drawable/ic_fa_angle_left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+
+            android:text="123"
+            android:layout_marginLeft="4dp"
+            android:id="@+id/TV_activity_inkcharm_personal_page_UserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
     <FrameLayout
         android:layout_weight="4"
         android:layout_width="match_parent"
@@ -21,14 +47,8 @@
 
         android:orientation="vertical"
         android:gravity="center"
-
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <TextView
-            android:id="@+id/TV_activity_inkcharm_personal_page_UserName"
-            android:textSize="24dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
         <com.qpy.inkcharm.tools.round_icon.CircularImage
             android:id="@+id/CI_activity_inkcharm_personal_page_UserImage"
             android:layout_marginTop="8dp"
@@ -37,17 +57,32 @@
         <TextView
             android:id="@+id/TV_activity_inkcharm_personal_page_UserWord"
             android:layout_marginTop="8dp"
-            android:textSize="20dp"
+            android:textSize="12dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
     </LinearLayout>
     </FrameLayout>
     <LinearLayout
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
         android:orientation="vertical"
         android:layout_weight="3"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="48dp">
+            <TextView
+                android:layout_marginLeft="4dp"
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TA的文章"/>
+
+        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -56,14 +91,14 @@
         </LinearLayout>
         <LinearLayout
             android:gravity="center_vertical"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="48dp">
             <TextView
+                android:layout_marginLeft="4dp"
                 android:textSize="16dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1:"/>
+                android:text="TA的收藏"/>
 
         </LinearLayout>
         <LinearLayout
@@ -100,15 +135,21 @@
 
         </LinearLayout>
         <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/Activity_Login_AppName_BLACK">
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="48dp">
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
+            </LinearLayout>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"

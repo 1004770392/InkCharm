@@ -12,7 +12,7 @@ import android.widget.EditText;
  */
 public class RegisterActivity extends Activity {
 
-    Button BT_activity_register_back, BT_activity_register_next;
+    Button BT_activity_register_next;
     EditText ET_activity_register_username, ET_activity_register_password;
 
     private String register_username, register_password;
@@ -24,13 +24,11 @@ public class RegisterActivity extends Activity {
         BT_activity_register_next = (Button) findViewById(com.qpy.inkcharm.R.id.BT_activity_register_next);
         ET_activity_register_username = (EditText) findViewById(com.qpy.inkcharm.R.id.ET_activity_register_username);
         ET_activity_register_password = (EditText) findViewById(com.qpy.inkcharm.R.id.ET_activity_register_password);
-        BT_activity_register_back.setOnClickListener(new View.OnClickListener() {
-
+        BT_activity_register_next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
                 startActivity(intent);
-
             }
         });
 
